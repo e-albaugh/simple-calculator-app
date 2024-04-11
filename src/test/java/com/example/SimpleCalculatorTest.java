@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class SimpleCalculatorTest {
-    private final SimpleCalculator calculator = new SimpleCalculator();
+    private final App calculator = new App();
 
     @Test
     public void testAdd() {
