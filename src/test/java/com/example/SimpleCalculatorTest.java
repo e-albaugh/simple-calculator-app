@@ -25,7 +25,7 @@ public class SimpleCalculatorTest {
     public void testDivide() {
         assertEquals(2, calculator.divide(6, 3));
     }
-    
+
     // Five more tests that vary the inputs or methods to ensure full coverage
     @Test
     public void testAddNegativeNumbers() {
