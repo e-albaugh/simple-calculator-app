@@ -15,7 +15,7 @@ public class SimpleCalc {
     }
 
     public int multiply(int a, int b) {
-        throw new UnsupportedOperationException("Multiply is not supported in this version.");
+        return a * b;
     }
 
     public int divide(int a, int b) {
