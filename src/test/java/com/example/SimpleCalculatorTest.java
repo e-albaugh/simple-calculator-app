@@ -35,7 +35,6 @@ public class SimpleCalculatorTest {
     @Test
     public void testMultiplyWithZero() {
         assertEquals(0, calculator.multiply(0, 3));
-        fail("Multiply by zero not yet implemented");
     }
 
     @Test
